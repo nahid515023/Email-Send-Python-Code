@@ -53,14 +53,6 @@ def main():
         except smtplib.SMTPAuthenticationError:
             print("\n\t\tYour email and password are wrong!")
 
-        # with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-        #     # with smtplib.SMTP('localhost', 1025) as smtp:
-        #     # python -m smtpd -c DebuggingServer -n localhost:1025
-        #     # smtp.ehlo()
-        #     # smtp.starttls()
-        #     # smtp.ehlo()
-        #     smtp.login(sender, password)
-
 
 if __name__ == '__main__':
     main()
