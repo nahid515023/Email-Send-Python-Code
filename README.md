@@ -4,3 +4,6 @@
         # smtp.ehlo()
         # smtp.starttls
         # smtp.ehlo()  -->
+        
+        Allow less secure apps: ON
+        https://myaccount.google.com/lesssecureapps
